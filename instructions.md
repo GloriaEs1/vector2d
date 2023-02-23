@@ -32,3 +32,12 @@
 - 2/23/23
 
     - Write a method called `angle` that has `self` as its only parameter and returns the arctangent **in degrees** of the vector's `y` and `x` components. **NOTE:** You'll want to consult the documentation for [`math.atan2(y, x)`](https://docs.python.org/3/library/math.html#math.atan2) and [`math.degrees(x)`](https://docs.python.org/3/library/math.html#math.degrees)
+    
+     - 2/28/23
+
+    ### `flash_cards.py`
+    - Write a function called `print_conversion` that takes two positional arguments: a `Vector2d` object and a string.
+        - If the string is "polar", the flash card should display a conversion *from* rectangular **to** polar form like so:
+        ![Flash card for vector conversion from rectangular to polar form](img/to_polar.png)
+        - If the string is "rectangular", the flash card should display a conversion *from* polar **to** rectangular form like so:
+        ![Flash card for vector conversion from rectangular to polar form](img/to_rectangular.png)
