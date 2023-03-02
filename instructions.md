@@ -38,6 +38,6 @@
     ### `flash_cards.py`
     - Write a function called `print_conversion` that takes two positional arguments: a `Vector2d` object and a string.
         - If the string is "polar", the flash card should display a conversion *from* rectangular **to** polar form like so:
-        ![Flash card for vector conversion from rectangular to polar form](img/to_polar.png)
+        ![Flash card for vector conversion from rectangular to polar form][def]
         - If the string is "rectangular", the flash card should display a conversion *from* polar **to** rectangular form like so:
-        ![Flash card for vector conversion from rectangular to polar form](img/to_rectangular.png)
+        ![Flash card for vector conversion from rectangular to polar form](img/to_rectangular.png)img/to_rectangular.png)
