@@ -1,5 +1,7 @@
 import vector2d
 
-def conversion():
-    print("5i + 3j")
-    
+def print_conversion(vector, string):
+    if string == "polar":
+        print("Convert {vector} to polar form")
+    if string == "rectangular":
+        print("Convert {polar} to rectangular form ")
