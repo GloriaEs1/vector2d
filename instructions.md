@@ -67,4 +67,9 @@
     - Ask the user if they'd like to receive another question, or quit.
     - Respond accordingly.
 
-    
+- 3/6/23
+    ### `flash_cards.py`
+    Currently we have two functions, `print_conversion` and `print_conversion_solution` that each encompass two separate behaviors - one for rectangular problems and one for polar problems. We're going to *refactor* these functions into separate functions for each type of problem. 
+    - Rewrite the `print_conversion` function as **two** separate functions: `print_polar_conversion`, which prints a conversion **from** rectangular **to** polar form, and `print_rectangular_conversion`, which prints a conversion **from** polar **to** rectangular form.
+    - Repeat this process for `print_conversion_solution` - when you're done you should have a `print_polar_solution` and a `print_rectangular_solution` function.
+    **Note:** Each of these functions will now only accept *one* argument (a vector), since the type of conversion is dealt with when the function is chosen.
